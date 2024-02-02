@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  background-color: rgb(28, 28, 28);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(28, 28, 28);
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: rgb(210, 212, 215);
+  text-transform: uppercase;
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+}
+.link:focus {
+  color: rgb(39,181,96);
+}
+
+.inputForm {
+  padding: 15px;
+  background-color: rgb(210, 212, 215) ;
+  margin: 20px;
+  border-radius: 15px;
+
+}
+.inputForm:focus {
+  background-color: rgb(210, 212, 215);
+}
+.label {
+  color: rgb(39,181,96, 0.8);
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  width: 70%;
+  padding: 40px;
+  margin: auto;
+}
+
+.textarea {
+  padding: 15px;
+  background-color: rgb(210, 212, 215) ;
+  margin: 20px;
+  height: 24vh;
+  font-family: 'Manrope', sans-serif;
+  border-radius: 15px;
+}
+.btn-submit {
+  background-color: rgb(39,181,96);
+  font-family: 'Manrope', sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 70%;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.btn-submit:hover {
+  background-color: rgb(54, 250, 132);
+}
+.answer-box {
+  display: flex;
+  justify-content: center;
+}
+.answer {
+  color: rgb(39,181,96);
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+}
+
+video {
+  width: 100%;
+}
+
+p, h4 {
+  color: rgb(210, 212, 215);
+  line-height: 100%;
+  font-family: 'Manrope', sans-serif;
+}
+p {
+  line-height: 140%;
+  font-family: 'Manrope', sans-serif;
+}
+h2 {
+  line-height: 80%;
+  color: rgb(210, 212, 215);
+  font-size: 40px;
+  font-family: 'Manrope', sans-serif;
+}
+
+span {
+  color: rgb(40,182,96) ;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+}
+.cardBox{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  font-family: 'Manrope', sans-serif;
+}
+
+h6, li {
+  color: rgb(210, 212, 215);
+  font-family: 'Manrope', sans-serif;
+}
+
+.ancor {
+  text-decoration: none;
+  color: rgb(40,182,96);
+  padding: 0;
+  margin: 20px 20px 50px 50px;
+  background-color: none;
+  font-family: 'Manrope', sans-serif;
+  
+}
+.ancor:hover {
+  font-weight: bolder;
+}
+.ancor-service{
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    padding: 30px;
+}
+.benefit {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+}
+
+.serviceTitle {
+  color: rgb(40,182,96);
+}
+
+.btn-service {
+  background-color: rgb(210, 212, 215, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  width: 60%;
+}
+
+.btn-service:hover {
+  background-color:  #28B660;
+}
+
+
+@media all and (max-width: 430px) {
+
+  
+  .cardBox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefit {
+    align-items: center;
+  }
+  .textarea{
+    height: 18vh;
+    border-radius: 15px;
+    
+  }
+
+  video {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .link {
+    padding: 5px 20px;
+    
+  }
+  
+
+}
+
+
+
+
+
+
+
