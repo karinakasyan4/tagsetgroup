@@ -106,7 +106,7 @@ span {
 .container {
   display: flex;
   flex-direction: column;
-  
+  margin: 0;
 }
 .cardBox{
   display: flex;
@@ -169,18 +169,38 @@ h6, li {
   padding: 10px;
   width: 60%;
 }
-
+.btn-service-remote{
+  color: rgb(210, 212, 215, 0.8);
+  background-color: rgb(28, 28, 28);
+  border: none;
+  margin-top: 8px;
+}
+.btn-service-remote:hover{
+  color: rgba(243, 59, 3, 0.8); 
+}
 .btn-service:hover {
   background-color:  #28B660;
 }
 
 
-@media all and (max-width: 430px) {
+@media all and (max-width: 540px) {
 
+
+  .App {
+    max-width: 100%;
+    margin: 0;
+    
+    
+}
+  .container {
+    max-width: 100%;
+    margin-left: 10px;
   
+  }
   .cardBox {
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
   }
 
   .service-box {
@@ -193,27 +213,32 @@ h6, li {
     align-items: center;
   }
   .textarea{
-    height: 18vh;
+    height: 20vh;
     border-radius: 15px;
     
   }
 
   video {
-    width: 100%;
+   max-width: 100%;
   }
 
   nav {
     display: flex;
     justify-content: center;
-    padding: 5px;
-    width: 100%;
+    padding: 4px;
+    width: 90%;
+    margin-left: 10px;
   }
   
   .link {
-    padding: 5px 20px;
+    padding: 5px 14px;
     
   }
   
+  .logo {
+    width: 30px;
+    margin-left: 8px;
+  }
 
 }
 

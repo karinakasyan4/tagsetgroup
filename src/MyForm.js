@@ -11,7 +11,9 @@ function ContactForm() {
         </div>)
   }
   return (
-      <form className='form' onSubmit={handleSubmit} >
+      <form data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" className='form' onSubmit={handleSubmit} >
       <label className='label' htmlFor="email">
         Email Address
       </label>
