@@ -2,7 +2,7 @@
   "name": "tagsetgroup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/karinakasyan4/tagsetgroup.git",
+  "homepage": "https://karinakasyan4.github.io/tagsetgroup/",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@reduxjs/toolkit": "^2.1.0",
