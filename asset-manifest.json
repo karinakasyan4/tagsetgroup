@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/karinakasyan4/tagsetgroup.git/static/css/main.08842dcc.css",
-    "main.js": "/karinakasyan4/tagsetgroup.git/static/js/main.200c6e20.js",
-    "static/js/787.ccced6b2.chunk.js": "/karinakasyan4/tagsetgroup.git/static/js/787.ccced6b2.chunk.js",
-    "static/media/videoTagset.MP4": "/karinakasyan4/tagsetgroup.git/static/media/videoTagset.877583761a513d83932d.MP4",
-    "static/media/analisys.png": "/karinakasyan4/tagsetgroup.git/static/media/analisys.67a6da41d56a1697eb15.png",
-    "static/media/bussines.png": "/karinakasyan4/tagsetgroup.git/static/media/bussines.0153c4e124ea0f3fbab5.png",
-    "static/media/web.png": "/karinakasyan4/tagsetgroup.git/static/media/web.e8890b5ab7678928d8f9.png",
-    "static/media/Brandmark.png": "/karinakasyan4/tagsetgroup.git/static/media/Brandmark.32de889c182d8be3c9fe.png",
-    "index.html": "/karinakasyan4/tagsetgroup.git/index.html",
-    "main.08842dcc.css.map": "/karinakasyan4/tagsetgroup.git/static/css/main.08842dcc.css.map",
-    "main.200c6e20.js.map": "/karinakasyan4/tagsetgroup.git/static/js/main.200c6e20.js.map",
-    "787.ccced6b2.chunk.js.map": "/karinakasyan4/tagsetgroup.git/static/js/787.ccced6b2.chunk.js.map"
+    "main.css": "/tagsetgroup/static/css/main.1e6336c8.css",
+    "main.js": "/tagsetgroup/static/js/main.8019ac82.js",
+    "static/js/787.ccced6b2.chunk.js": "/tagsetgroup/static/js/787.ccced6b2.chunk.js",
+    "static/media/videoTagset.MP4": "/tagsetgroup/static/media/videoTagset.877583761a513d83932d.MP4",
+    "static/media/analisys.png": "/tagsetgroup/static/media/analisys.67a6da41d56a1697eb15.png",
+    "static/media/bussines.png": "/tagsetgroup/static/media/bussines.0153c4e124ea0f3fbab5.png",
+    "static/media/web.png": "/tagsetgroup/static/media/web.e8890b5ab7678928d8f9.png",
+    "static/media/Brandmark.png": "/tagsetgroup/static/media/Brandmark.32de889c182d8be3c9fe.png",
+    "index.html": "/tagsetgroup/index.html",
+    "main.1e6336c8.css.map": "/tagsetgroup/static/css/main.1e6336c8.css.map",
+    "main.8019ac82.js.map": "/tagsetgroup/static/js/main.8019ac82.js.map",
+    "787.ccced6b2.chunk.js.map": "/tagsetgroup/static/js/787.ccced6b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08842dcc.css",
-    "static/js/main.200c6e20.js"
+    "static/css/main.1e6336c8.css",
+    "static/js/main.8019ac82.js"
   ]
 }
